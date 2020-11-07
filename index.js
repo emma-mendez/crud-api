@@ -87,7 +87,7 @@ app.delete("/profiles/:userId", (req, res) => {
   delete db.profiles[req.params.userId]
 
   res.status(200).json({
-    status: "success",
+    status: "succesful",
     message: "deleted"
   })
 })
