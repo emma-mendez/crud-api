@@ -88,7 +88,7 @@ app.delete("/profiles/:userId", (req, res) => {
 
   res.status(200).json({
     status: "success",
-    message: "deleted profile 1000"
+    message: "deleted"
   })
 })
 
