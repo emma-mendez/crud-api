@@ -19,8 +19,16 @@ const db = {
   },
   books: {
     0: {
-      title: "Richest Man In babylon",
+      title: "Richest Man In Babylon",
       author: "George S Clason"
+    },
+    1: {
+      title: "Two Thousand Seasons",
+      author: "Ayi Kwei Armah"
+    },
+    2: {
+      title: "Hurricanes",
+      author: "Rick Ross"
     }
   }
 }
